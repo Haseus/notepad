@@ -1,8 +1,8 @@
 # NotePad
 * NoteList中显示条目增加时间戳显示
 * 添加笔记查询功能（根据标题查询）
-* 实验截图：\n
-![](https://github.com/Haseus/notepad/blob/master/photo/1.png )
+* 实验截图：
+* ![](https://github.com/Haseus/notepad/blob/master/photo/1.png )
 ![](https://github.com/Haseus/notepad/blob/master/photo/2.png )
 ![](https://github.com/Haseus/notepad/blob/master/photo/3.png )
 ![](https://github.com/Haseus/notepad/blob/master/photo/4.png )
