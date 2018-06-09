@@ -18,17 +18,18 @@
       android:textAppearance="?android:attr/textAppearanceSmall"
       android:paddingLeft="5dip"
       android:textColor="@color/colorBlack"/>
-      ```
 * NoteSearch
-    > private static final String[] PROJECTION = new String[] {
-         NotePad.Notes._ID, 
-         NotePad.Notes.COLUMN_NAME_TITLE, 
-         NotePad.Notes.COLUMN_NAME_CREATE_DATE,      
+    ```
+    private static final String[] PROJECTION = new String[] {
+    NotePad.Notes._ID, 
+    NotePad.Notes.COLUMN_NAME_TITLE, 
+    NotePad.Notes.COLUMN_NAME_CREATE_DATE,      
  };
     > String[] dataColumns = { NotePad.Notes.COLUMN_NAME_TITLE ,  NotePad.Notes.COLUMN_NAME_CREATE_DATE } ;
 int[] viewIDs = { android.R.id.text1 , R.id.text1_time };
 * note_search_list.xml
-    > <?xml version="1.0" encoding="utf-8"?>
+ ```
+ <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
   android:orientation="vertical" android:layout_width="match_parent"
   android:layout_height="match_parent">
@@ -46,8 +47,10 @@ int[] viewIDs = { android.R.id.text1 , R.id.text1_time };
       android:layout_height="wrap_content">
   </ListView>
 </LinearLayout>
+
 * NoteSearch
-    > private static final String[] PROJECTION = new String[] {
+    ```
+    private static final String[] PROJECTION = new String[] {
           NotePad.Notes._ID, 
           NotePad.Notes.COLUMN_NAME_TITLE, 
           NotePad.Notes.COLUMN_NAME_CREATE_DATE, 
