@@ -59,6 +59,8 @@ int[] viewIDs = { android.R.id.text1 , R.id.text1_time };
           NotePad.Notes.COLUMN_NAME_TITLE, 
           NotePad.Notes.COLUMN_NAME_CREATE_DATE, 
   };
+```
+```
     > public boolean onQueryTextChange(String newText) {
       String selection = NotePad.Notes.COLUMN_NAME_TITLE + " Like ? ";
       String[] selectionArgs = { "%"+newText+"%" };
