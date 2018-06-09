@@ -10,7 +10,8 @@
 ![](https://github.com/Haseus/notepad/blob/master/photo/6.png )
 * 实验代码:
 * note_search_list.xml
-    > ```<TextView</br>
+     ```
+     <TextView</br>
       android:id="@+id/text1_time"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
